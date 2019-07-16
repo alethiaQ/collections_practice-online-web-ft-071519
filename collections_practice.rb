@@ -24,7 +24,7 @@ end
 
 def kesha_maker(array)
   new_arr = []
-  pos = 3
+  pos = 2
   char = "$"
   array.each do |string|
     new_arr << (string[0..pos-1] + char + string[pos+1..-1])
